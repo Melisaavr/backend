@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['restaurant-booking-sable.herokuapp.com',
+ALLOWED_HOSTS = ['restaurant-booking-sable-585091cb1330.herokuapp.com',
                  'localhost', '127.0.0.1', 'restaurant-booking-sable.vercel.app']
 
 
